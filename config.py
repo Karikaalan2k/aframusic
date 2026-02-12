@@ -36,7 +36,7 @@ YT_API_KEY = getenv("YT_API_KEY" , 'xbit_FoPZuIwe2QtqAbVbc1Yc2YLWqk1Phhqe' ) ## 
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/denki307/DENKIMUSICBOT",
+    "https://github.com/kari2k/KARI-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/3ec4db0d7b6b048c8fb3f-0f7b10eb32e2d2f2e3.jpg"
+    "START_IMG_URL", "https://graph.org/file/41fd136ddec369ed6b014-46f5a2fbb2ec071e49.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
